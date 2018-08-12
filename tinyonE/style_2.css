@@ -1,0 +1,338 @@
+body {
+    background: ;
+    font-family: arial;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.part-1 {
+    background: #fcdb00;
+    overflow: hidden;
+    height: vh;
+    padding: 0 0 20px 0;
+}
+
+.part-1:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    float: left;
+    margin-top: 0px;
+}
+
+.navigation {
+    width: 70%;
+    float: left;
+      
+}
+
+.nav ul li {
+    display: inline;
+    text-align: right;
+    padding-right: 60px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 25px; 
+	color: #000;
+	font-weight: 600;
+
+}
+
+.nav ul {
+    text-align: right;
+}
+.des{
+	margin-top: 50px;
+}
+.left{
+	width: 50%;
+	float: left;
+}
+.left .left-t{
+	width: 70%;
+	/*text-align: center;*/
+	margin-left: 10px;
+	
+	padding-top: 50px;
+}
+.left-t p{
+	color: #000;
+}
+.left .left-t ul{
+	padding-left: 0;
+}
+.left .left-t ul li {
+	display: inline;
+}
+.left .left-t ul li  img{
+	margin-right: 30px;
+}
+.p-mid{
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+}
+.left .p-mid {
+	color: #000;
+}
+.right{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.right img{
+	margin-left: 100px;
+}
+.dots{
+	text-align: center;
+}
+.dots ul li{
+	display: inline;
+	font-size: 130px;
+	margin: 0;
+	color: #fff;
+}
+.dots ul .first{
+	color: #fff;
+}
+.dots ul .second{
+	color: #d8cfcf;
+}
+.dots ul .third{
+	color: #d8cfcf;
+}
+
+/* #############################  */
+/*First part ends Here */
+/*======================================*/
+/* #############################  */
+/*Second part started Here */
+/*======================================*/
+
+#block{
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	margin-top: 50px;
+	text-align: justify;
+
+}
+.part-2{
+	/*background: cyan;*/
+	padding: 50px 0 50px 0;
+	overflow: hidden;
+
+}
+.part-2 .feature{
+	text-align: center;
+}
+.part-2 hr{
+	border: 0;
+	border-top: 1px solid #000;
+}
+.part-2 h2{
+	margin-top: 0;
+	padding: 0 15px ;
+	font-size: 20px;
+	font-weight: 600;
+}
+.part-2 p{
+	color: #898989;
+	padding: 0 15px ;
+}
+.f-1{
+	/*background: red;*/
+}
+.part-2 .feature p{
+	color: #000;
+	font-size: 18px;
+}
+
+.f-1 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-1 .f-1-des{
+	width: 80%;
+	float: right;
+}
+.f-2{
+	/*background: green;	*/
+}
+.f-2 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-2 .f-2-des{
+	width: 80%;
+	float: right;
+}
+.f-3{
+	/*background: blue;*/
+}
+.f-3 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-3 .f-3-des{
+	width: 80%;
+	float: right;
+}
+.f-4{
+	/*background: pink;*/
+}
+.f-4 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-4 .f-4-des{
+	width: 80%;
+	float: right;
+}
+.f-5{
+	/*background: magenta;*/
+}
+.f-5 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-5 .f-5-des{
+	width: 80%;
+	float: right;
+}
+.f-6{
+	/*background: yellow;*/
+}
+.f-6 .icon{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+.f-6 .f-6-des{
+	width: 80%;
+	float: right;
+}
+
+/* #############################  */
+/*Second part ends Here */
+/*======================================*/
+/* #############################  */
+/*Third part started Here */
+/*======================================*/
+
+.part-3{
+	background: #000;
+	color: #fff;
+	padding: 50px 0;
+	overflow: hidden;
+	
+}
+.contact{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+.contact h1{
+	color: #fcdb00;
+}
+.contact p{
+	color: #898989;
+}
+.update{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 40px;
+
+}
+.update .form .email{
+	width: 70%;
+	float: left;
+}
+
+.update .email input[type="email"]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	font-size: 16px;
+	padding: 10px 8px;
+	border-radius: 3px;
+}
+.update  .submit input[type="submit"]{
+	width: 28%;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 8px;
+	border-radius: 3px;
+	background: #fcdb00;
+}
+.update  .submit input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ddc524;
+}
+.social {
+	display: block;
+	text-align: center;
+	font-size: 40px; 
+}
+.social ul li {
+	
+	
+	display: inline;
+	background:;
+	
+	margin: auto;
+}
+.social ul li i{
+	margin-right: 30px;
+	text-align: center;
+	color: #fcdb00;
+}
+#ot{
+	width: 20%;
+	float: left;
+}
+.bottom{
+	color: #fff;
+}
+.bottom ul li{
+	text-decoration: none;
+	list-style: none;
+	line-height: 1.5;
+}
+.bottom ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* #############################  */
+/*Third part ends Here */
+/*======================================*/
