@@ -1,0 +1,78 @@
+$body-bg: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+
+
+body{
+  background: $body-bg;
+  color: $font-color;
+}
+
+
+
+.navbar{
+  border-bottom: 3px solid $primary-color;
+  background: #292b2c;
+  opacity: 0.7;
+}
+
+#home{
+  background: url("../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+
+.dark-overlay{
+  background: rgba(0,0,0,0.7);
+  min-height: 700px;
+}
+
+.fa{
+  background:  #fff;
+  color: $primary-color;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.card-form{
+  opacity: 0.7;
+}
+.home-inner{
+  padding: 150px 0 50px 0;
+
+}
+}
+
+#explore-body{
+.text{
+  /*color: #000;*/
+
+}
+.fa{
+  background: $body-bg;
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 3px;
+}
+}
+
+#creat-body{
+  .fa{
+    background: #fff;
+    color: #333;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+#share-body{
+  .fa{
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
